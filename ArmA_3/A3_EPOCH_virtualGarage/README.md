@@ -42,6 +42,7 @@ maxDistanceFromJammer = 300; // meters, only applies if requireJammer = 1<br />
 **clientSide:**<br />
 move the folder called `scarCODE` into the root of your mission file.<br />
 Then open your description.ext and merge the content of the description.ext provided with this repository.<br />
+Then open your init.sqf and merge the content of the init.sqf provided with this repository.<br />
 Then open your epoch_configs\configs\cfgRemoteExec.hpp and merge the content of the cfgRemoteExec.hpp provided with this repository.<br />
 Then open your epoch_configs\configs\cfgActionMenu_self.hpp and merge the content of the cfgActionMenu_self.hpp provided with this repository.<br />
 Then open your epoch_configs\configs\cfgFunctions.hpp and merge the content of the cfgFunctions.hpp provided with this repository.<br />

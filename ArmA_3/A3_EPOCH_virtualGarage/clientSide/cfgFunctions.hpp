@@ -13,7 +13,7 @@ class cfgFunctions
 			file = "scarCODE\VGS\functions_VGS";
 			class vgsGetClientSetting {};
 			class vgsOnLoad {};
-			class vgsRefresh {};			
+			class vgsRefresh {};
 			class vgsMoveOut {};
 			class vgsMoveIn {};
 			class vgsTrash {};
