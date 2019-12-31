@@ -71,6 +71,7 @@ if ((_response select 0) isEqualTo 1) then
 			clearBackpackCargoGlobal _veh;
 			[_veh,_gear] call EPOCH_server_CargoFill;
 			_veh setOwner (owner _playerObj);
+			_veh setPlateNumber "Epoch Mod";
 			
 			if (_persistentVics == 1) then {
 				_veh call EPOCH_server_setVToken;
