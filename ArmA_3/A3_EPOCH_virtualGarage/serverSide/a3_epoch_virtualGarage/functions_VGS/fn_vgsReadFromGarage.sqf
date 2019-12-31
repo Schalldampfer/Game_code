@@ -70,7 +70,6 @@ if ((_response select 0) isEqualTo 1) then
 			clearItemCargoGlobal _veh;
 			clearBackpackCargoGlobal _veh;
 			[_veh,_gear] call EPOCH_server_CargoFill;
-			_veh setOwner (owner _playerObj);
 			_veh setPlateNumber "Epoch Mod";
 			
 			if (_persistentVics == 1) then {
@@ -158,6 +157,8 @@ if ((_response select 0) isEqualTo 1) then
 					} forEach _actualHitpoints;
 				};
 			};
+			
+			_veh setOwner (owner _playerObj);
 		
 			if (_persistentVics == 1) then {
 				_veh call EPOCH_server_save_vehicle;
